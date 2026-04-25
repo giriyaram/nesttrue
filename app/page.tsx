@@ -77,7 +77,7 @@ export default function HomePage() {
               <div key={item.title} className="bg-surface rounded-xl p-6">
                 <div className="mb-4">{item.icon}</div>
                 <h3 className="font-display font-semibold text-navy text-xl mb-2">{item.title}</h3>
-                <p className="text-gray-600 text-sm leading-relaxed">{item.body}</p>
+                <p className="text-gray-600 text-base leading-relaxed">{item.body}</p>
               </div>
             ))}
           </div>
@@ -104,7 +104,7 @@ export default function HomePage() {
                       {city.name}
                     </h3>
                     <p className="text-gray-500 text-sm mt-1">{city.state}</p>
-                    <p className="text-gray-700 mt-3 text-sm">{city.tagline}</p>
+                    <p className="text-gray-700 mt-3 text-base">{city.tagline}</p>
                   </div>
                   <ArrowRight
                     className="text-gray-300 group-hover:text-trust-blue transition-colors mt-1"
