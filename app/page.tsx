@@ -13,7 +13,7 @@ export default function HomePage() {
           <Logo dark />
           <Link
             href="#cities"
-            className="text-sm text-blue-200 hover:text-white transition-colors"
+            className="text-sm text-blue-200 hover:text-white transition-colors py-3 px-2 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-true-accent rounded"
           >
             Explore cities →
           </Link>
@@ -49,10 +49,10 @@ export default function HomePage() {
       {/* Why NestTrue */}
       <section className="bg-white py-20">
         <div className="max-w-6xl mx-auto px-4">
-          <h2 className="text-3xl font-display font-bold text-navy text-center mb-3">
+          <h2 className="text-3xl font-display font-bold text-navy mb-3">
             We tell you what brokers won&apos;t
           </h2>
-          <p className="text-gray-500 text-center mb-12 max-w-xl mx-auto">
+          <p className="text-gray-500 mb-12 max-w-xl">
             Every area page includes the reasons NOT to buy — because honest analysis builds
             better decisions.
           </p>
