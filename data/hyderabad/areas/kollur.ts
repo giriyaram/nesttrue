@@ -25,16 +25,19 @@ const kollur: AreaData = {
       title: "Social infrastructure is 3–5 years behind the developer supply",
       detail:
         "Thousands of apartments have launched in Kollur since 2022, but supermarkets, schools, hospitals, and restaurants are still sparse. Residents currently drive 10–15 km to Kokapet or Gachibowli for most daily needs.",
+      source: "GHMC / HMDA infrastructure status",
     },
     {
       title: "No direct ORR access from the core Kollur pocket",
       detail:
         "Unlike Kokapet, Kollur's main residential clusters reach the ORR via feeder roads through Nallagandla and Tellapur. Peak-hour commutes to HITEC City can stretch to 45–50 minutes despite the map distance looking short.",
+      source: "HMDA road network records",
     },
     {
       title: "Builder quality is uneven — verify RERA carefully",
       detail:
         "Alongside premium names like Prestige, several smaller and less-proven developers have launched in Kollur. Check TSRERA registration, litigation history, and project delivery track record before booking with any mid-tier builder.",
+      source: "RERA filings / NestTrue analysis",
     },
   ],
   highlights: [

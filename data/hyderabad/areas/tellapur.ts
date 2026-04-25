@@ -25,11 +25,13 @@ const tellapur: AreaData = {
       title: "Infrastructure is 3–5 years behind prices",
       detail:
         "Roads, sewage, and reliable electricity are still patchy in the newer sectors. Developers have built; civic agencies have not caught up.",
+      source: "GHMC / HMDA infrastructure status",
     },
     {
       title: "Long commute without ORR exit",
       detail:
         "Getting to HITEC City involves navigating through Miyapur or Kondapur, not a direct ORR access. A 35-minute drive easily becomes 55+ minutes in peak traffic.",
+      source: "HMDA road network / NestTrue field analysis",
     },
   ],
   highlights: [

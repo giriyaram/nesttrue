@@ -25,16 +25,19 @@ const mokila: AreaData = {
       title: "50+ minute daily commute to IT hubs",
       detail:
         "Mokila has no ORR access and no metro connectivity. Daily commuters spend 1.5–2 hours in the car. This is a deal-breaker for most IT professionals.",
+      source: "NestTrue field analysis",
     },
     {
       title: "Developer quality is inconsistent",
       detail:
         "Several smaller builders have launched in Mokila without strong track records. RERA registration exists, but delivery timelines have slipped by 18–24 months on multiple projects.",
+      source: "RERA filings / NestTrue analysis",
     },
     {
       title: "Resale liquidity is thin",
       detail:
         "Finding a buyer in a reasonable timeframe is harder than in Kokapet or Gachibowli. The buyer pool is smaller and more price-sensitive.",
+      source: "SRO transaction data",
     },
   ],
   highlights: [

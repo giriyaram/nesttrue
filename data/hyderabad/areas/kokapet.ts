@@ -25,16 +25,19 @@ const kokapet: AreaData = {
       title: "Severe traffic congestion on Nehru Outer Ring Road",
       detail:
         "Peak-hour commutes to Financial District can exceed 45 minutes despite the 6 km distance. The Kokapet junction bottleneck has no near-term flyover solution.",
+      source: "HMDA traffic study / NestTrue field analysis",
     },
     {
       title: "Prices already stretched",
       detail:
         "At ₹10,000+ / sq ft, Kokapet trades at a premium to HITEC City itself. Appreciation headroom is narrowing — late entrants face compressed returns.",
+      source: "SRO transaction data 2022–2025",
     },
     {
       title: "Water supply gaps in newer pockets",
       detail:
         "Sectors developed post-2022 still rely on tankers during HMWSSB shortfalls. Check OC and water connection status before booking.",
+      source: "HMWSSB / resident accounts",
     },
   ],
   highlights: [

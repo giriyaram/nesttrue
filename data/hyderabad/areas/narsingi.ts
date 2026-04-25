@@ -25,11 +25,13 @@ const narsingi: AreaData = {
       title: "Connectivity depends on ORR access — no metro",
       detail:
         "Narsingi lacks direct metro connectivity. The ORR feeder roads are functional but narrow. If ORR tolls or traffic worsen, commute quality degrades sharply.",
+      source: "HMDA / HMRL metro alignment records",
     },
     {
       title: "Retail and social infrastructure still maturing",
       detail:
         "Grocery chains, hospitals, and schools are limited within the micro-market. Residents currently drive to Gachibowli or Kokapet for most daily needs.",
+      source: "GHMC / HMDA infrastructure status",
     },
   ],
   highlights: [

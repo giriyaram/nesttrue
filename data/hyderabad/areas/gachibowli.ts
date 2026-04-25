@@ -25,11 +25,13 @@ const gachibowli: AreaData = {
       title: "Appreciation has plateaued relative to western micro-markets",
       detail:
         "Gachibowli prices grew only 22% vs Kokapet's 34% in the same 3 years. As a mature market, future gains will likely track inflation rather than outpace it.",
+      source: "SRO transaction data 2022–2025",
     },
     {
       title: "Inventory dominated by 10+ year old buildings",
       detail:
         "Much of Gachibowli's apartment stock is aging. Maintenance costs are rising and newer amenities (clubhouses, EV charging) are rare in older projects.",
+      source: "GHMC completion certificates / resident accounts",
     },
   ],
   highlights: [

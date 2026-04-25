@@ -25,16 +25,19 @@ const kondapur: AreaData = {
       title: "Traffic congestion on Kondapur main road is severe",
       detail:
         "The stretch from Kothaguda junction to Biodiversity junction jams from 8–10 AM and 6–9 PM daily. If you drive, budget 25–40 extra minutes door-to-door during peak hours.",
+      source: "HMDA / NestTrue field analysis",
     },
     {
       title: "Limited new inventory — mostly resale and ageing stock",
       detail:
         "Most Kondapur apartments are 8–15 years old. Fresh launches are rare because the area is built out. Buyers get lower entry prices but take on higher maintenance costs and dated amenities.",
+      source: "GHMC completion certificates",
     },
     {
       title: "Parking is chronically undersupplied",
       detail:
         "Many older apartment complexes were built with 1:1 parking ratios before two-car households became the norm. Visitor parking barely exists, and street parking is chaotic.",
+      source: "NestTrue field analysis / resident accounts",
     },
   ],
   highlights: [

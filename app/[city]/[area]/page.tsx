@@ -139,6 +139,9 @@ export default async function AreaPage({
                   <div key={i} className="bg-red-50 border border-red-100 rounded-xl p-5">
                     <p className="font-semibold text-red-800">{flag.title}</p>
                     <p className="text-red-700 text-sm mt-1.5 leading-relaxed">{flag.detail}</p>
+                    {flag.source && (
+                      <p className="text-xs text-red-400 mt-2">Source: {flag.source}</p>
+                    )}
                   </div>
                 ))}
               </div>

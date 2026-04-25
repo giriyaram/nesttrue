@@ -25,21 +25,25 @@ const financialDistrict: AreaData = {
       title: "Among the most expensive residential micro-markets in Hyderabad",
       detail:
         "At ₹11,000–16,500 / sq ft, Financial District prices rival South Mumbai suburbs. New inventory is thin, and the few under-construction launches are targeting ultra-HNI buyers. Entry ticket for a 3 BHK starts at ₹2.5 Cr and goes north fast.",
+      source: "SRO transaction data / NestTrue analysis",
     },
     {
       title: "Appreciation has moderated as the market matures",
       detail:
         "26% over 3 years sounds strong until you compare it to Kokapet (34%) or Kollur (38%) at a fraction of the base price. As a mature, fully priced market, future gains will likely track 8–10% annually — not the outsized returns early buyers saw.",
+      source: "SRO transaction data 2022–2025",
     },
     {
       title: "Very limited new residential supply",
       detail:
         "Financial District is predominantly commercial. Residential inventory is scarce and mostly in the ₹14,000+ / sq ft luxury segment. Choices are few, and sellers know it — negotiating room is minimal.",
+      source: "GHMC building plan approvals",
     },
     {
       title: "Weekend noise and weekday office crowd density",
       detail:
         "Living next to Hyderabad's largest office cluster means construction noise during the week and surprisingly dead streets on weekends. The area lacks the organic neighbourhood feel of Gachibowli or Banjara Hills.",
+      source: "NestTrue field analysis / resident accounts",
     },
   ],
   highlights: [
