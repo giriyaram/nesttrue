@@ -1,0 +1,40 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model Lead {
+  id          String   @id @default(cuid())
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  phone       String   @unique
+  name        String?
+  email       String?
+
+  city        String
+  area        String?
+  budget      String?
+  timeline    String?
+  purpose     String?
+
+  waSessionId String?
+  waStatus    String   @default("pending")
+  rawMessages Json     @default("[]")
+
+  score       Int?
+  scoreReason String?
+  qualified   Boolean  @default(false)
+
+  notes       String?
+  assignedTo  String?
+  status      String   @default("new")
+
+  @@index([city])
+  @@index([waStatus])
+  @@index([createdAt])
+}

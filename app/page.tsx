@@ -1,65 +1,137 @@
-import Image from "next/image";
+import Link from "next/link";
+import { Logo } from "@/components/Logo";
+import { Footer } from "@/components/Footer";
+import { cities } from "@/data/cities";
+import { ArrowRight, Shield, TrendingUp, MessageCircle } from "lucide-react";
 
-export default function Home() {
+export default function HomePage() {
   return (
-    <div className="flex flex-col flex-1 items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <main className="flex flex-1 w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
-        />
-        <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
-          <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
-            To get started, edit the page.tsx file.
-          </h1>
-          <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-            Looking for a starting point or more instructions? Head over to{" "}
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Templates
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Learning
-            </a>{" "}
-            center.
+    <div className="flex flex-col min-h-screen">
+      {/* Hero */}
+      <header className="bg-navy text-white">
+        <div className="max-w-6xl mx-auto px-4 py-5 flex items-center justify-between">
+          <Logo dark />
+          <Link
+            href="#cities"
+            className="text-sm text-blue-200 hover:text-white transition-colors"
+          >
+            Explore cities →
+          </Link>
+        </div>
+        <div className="max-w-6xl mx-auto px-4 py-20 pb-28">
+          <p className="text-true-accent font-medium text-sm uppercase tracking-widest mb-4">
+            Know before you buy
           </p>
+          <h1 className="text-5xl md:text-6xl font-display font-bold leading-tight max-w-3xl">
+            Honest research for Indian real estate buyers
+          </h1>
+          <p className="mt-6 text-xl text-blue-200 max-w-2xl">
+            Not a portal. Not a broker. Real data, real risks, hyperlocal analysis — for buyers
+            who do their homework.
+          </p>
+          <div className="mt-10 flex flex-wrap gap-4">
+            <Link
+              href="/hyderabad"
+              className="bg-trust-blue hover:bg-blue-600 text-white px-6 py-3 rounded-full font-medium flex items-center gap-2 transition-colors"
+            >
+              Explore Hyderabad <ArrowRight size={16} />
+            </Link>
+            <Link
+              href="/hyderabad/market-report"
+              className="border border-white/20 hover:border-white/40 text-white px-6 py-3 rounded-full font-medium transition-colors"
+            >
+              Q1 2025 Market Report
+            </Link>
+          </div>
         </div>
-        <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
-          <a
-            className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-foreground px-5 text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc] md:w-[158px]"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={16}
-            />
-            Deploy Now
-          </a>
-          <a
-            className="flex h-12 w-full items-center justify-center rounded-full border border-solid border-black/[.08] px-5 transition-colors hover:border-transparent hover:bg-black/[.04] dark:border-white/[.145] dark:hover:bg-[#1a1a1a] md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Documentation
-          </a>
+      </header>
+
+      {/* Why NestTrue */}
+      <section className="bg-white py-20">
+        <div className="max-w-6xl mx-auto px-4">
+          <h2 className="text-3xl font-display font-bold text-navy text-center mb-3">
+            We tell you what brokers won&apos;t
+          </h2>
+          <p className="text-gray-500 text-center mb-12 max-w-xl mx-auto">
+            Every area page includes the reasons NOT to buy — because honest analysis builds
+            better decisions.
+          </p>
+          <div className="grid md:grid-cols-3 gap-8">
+            {[
+              {
+                icon: <Shield className="text-trust-blue" size={28} />,
+                title: "Red Flags Included",
+                body: "Every area analysis lists the real risks — traffic, water supply gaps, builder defaults — not just the good stuff.",
+              },
+              {
+                icon: <TrendingUp className="text-trust-blue" size={28} />,
+                title: "Specific Numbers",
+                body: "₹8,500–13,000/sq ft. +34% in 3 years. 22-minute commute. We don't say 'good location' — we say what that means.",
+              },
+              {
+                icon: <MessageCircle className="text-trust-blue" size={28} />,
+                title: "WhatsApp Qualification",
+                body: "Tell us your budget, timeline, and needs. Our AI tells you whether a location actually fits — no callback from a broker.",
+              },
+            ].map((item) => (
+              <div key={item.title} className="bg-surface rounded-xl p-6">
+                <div className="mb-4">{item.icon}</div>
+                <h3 className="font-display font-semibold text-navy text-xl mb-2">{item.title}</h3>
+                <p className="text-gray-600 text-sm leading-relaxed">{item.body}</p>
+              </div>
+            ))}
+          </div>
         </div>
-      </main>
+      </section>
+
+      {/* Cities */}
+      <section id="cities" className="bg-surface py-20">
+        <div className="max-w-6xl mx-auto px-4">
+          <h2 className="text-3xl font-display font-bold text-navy mb-2">Choose your city</h2>
+          <p className="text-gray-500 mb-10">
+            Deep-dive analysis available for these markets. More cities coming.
+          </p>
+          <div className="grid md:grid-cols-2 gap-6">
+            {cities.map((city) => (
+              <Link
+                key={city.slug}
+                href={`/${city.slug}`}
+                className="group bg-white rounded-xl p-6 border border-gray-100 hover:border-trust-blue hover:shadow-lg transition-all"
+              >
+                <div className="flex items-start justify-between">
+                  <div>
+                    <h3 className="font-display font-bold text-2xl text-navy group-hover:text-trust-blue transition-colors">
+                      {city.name}
+                    </h3>
+                    <p className="text-gray-500 text-sm mt-1">{city.state}</p>
+                    <p className="text-gray-700 mt-3 text-sm">{city.tagline}</p>
+                  </div>
+                  <ArrowRight
+                    className="text-gray-300 group-hover:text-trust-blue transition-colors mt-1"
+                    size={20}
+                  />
+                </div>
+                <div className="mt-4 flex gap-2 flex-wrap">
+                  {city.topAreas.length > 0 ? (
+                    city.topAreas.map((area) => (
+                      <span
+                        key={area}
+                        className="text-xs bg-surface border border-gray-100 px-3 py-1 rounded-full text-gray-600 capitalize"
+                      >
+                        {area}
+                      </span>
+                    ))
+                  ) : (
+                    <span className="text-xs text-gray-400 italic">Coming soon</span>
+                  )}
+                </div>
+              </Link>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      <Footer />
     </div>
   );
 }
