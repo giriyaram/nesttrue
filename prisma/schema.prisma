@@ -22,13 +22,17 @@ model Lead {
   timeline    String?
   purpose     String?
 
-  waSessionId String?
-  waStatus    String   @default("pending")
-  rawMessages Json     @default("[]")
+  waSessionId   String?
+  lastMessageId String?
+  waStatus      String   @default("pending")
+  rawMessages   Json     @default("[]")
 
   score       Int?
   scoreReason String?
   qualified   Boolean  @default(false)
+
+  converted   Boolean  @default(false)
+  convertedAt DateTime?
 
   notes       String?
   assignedTo  String?

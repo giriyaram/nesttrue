@@ -1,5 +1,6 @@
 import { NextRequest, NextResponse } from "next/server";
 import { prisma } from "@/lib/prisma";
+import { inngest } from "@/lib/inngest";
 
 export const dynamic = "force-dynamic";
 
@@ -22,17 +23,12 @@ export async function POST(req: NextRequest) {
       create: { phone, name: name ?? undefined, city, area: area ?? undefined },
     });
 
-    // Fire Inngest event for WhatsApp qualification flow
-    if (process.env.INNGEST_EVENT_KEY) {
-      await fetch("https://inn.gs/e/" + process.env.INNGEST_EVENT_KEY, {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({
-          name: "lead/created",
-          data: { leadId: lead.id, phone: lead.phone, city: lead.city, area: lead.area },
-        }),
-      }).catch(() => {});
-    }
+    await inngest.send({
+      name: "lead/created",
+      data: { leadId: lead.id, phone: lead.phone, city: lead.city, area: lead.area },
+    });
+
+    console.log(`[leads] captured lead ${lead.id} for ${lead.phone} (${lead.city})`);
 
     return NextResponse.json({ ok: true, leadId: lead.id });
   } catch (err) {
