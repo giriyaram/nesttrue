@@ -106,6 +106,7 @@ const kokapet: AreaData = {
 The case for Kokapet is strong if you work near HITEC City or Financial District and prioritise a short commute over lower prices. Appreciation has been the best in western Hyderabad, and the builder quality is notably higher than peripheral micro-markets like Mokila. The ORR exit gives you direct access to the airport highway — a genuine lifestyle advantage.
 
 The case against is equally clear. Prices have run ahead of fundamentals — you are paying for the appreciation story at a point when most of it may already be priced in. Traffic is a daily irritant, and the Kokapet junction will remain a choke point for years. If budget is a constraint, Narsingi 5 km south delivers 80% of the location benefit at 15–20% lower prices.`,
+  idealFor: "IT professionals with ₹1.2 Cr+ budget commuting daily to Financial District or HITEC City who prioritise short commute and premium developer quality over cost",
   verdictBadge: "Buy",
 };
 

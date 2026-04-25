@@ -75,6 +75,7 @@ const narsingi: AreaData = {
 The trade-off is real: Narsingi's internal road network is narrower, retail options are thin, and the area feels more suburban than Kokapet's polished developments. But for families where at least one partner works from home, or for investors with a 5-year horizon, the value-for-money score is Hyderabad's best west of Gachibowli.
 
 Infrastructure is catching up — a petrol pump, Apollo Pharmacy, and a new Ratnadeep supermarket opened in 2024. The Kokapet-Narsingi road widening, if completed by 2026, will reduce the commute gap further.`,
+  idealFor: "Value-oriented buyers, families, or investors with a 5-year horizon who want western Hyderabad access at 15–20% below Kokapet prices",
   verdictBadge: "Buy",
 };
 

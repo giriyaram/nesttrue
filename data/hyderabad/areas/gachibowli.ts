@@ -76,6 +76,7 @@ const gachibowli: AreaData = {
 The honest caveat: you are buying into a mature market at peak prices. The 22% appreciation over 3 years sounds good until you compare it to Kokapet (34%) or Narsingi (28%) — areas with more headroom. Gachibowli is not a capital appreciation play anymore; it is a lifestyle and rental-yield play.
 
 If you are buying for end-use and plan to stay 7+ years, Gachibowli is hard to beat. If you are buying for investment or have a tighter budget, the western corridor alternatives will work harder for your money.`,
+  idealFor: "IT executives buying for lifestyle and long-term end-use (7+ year horizon); investors who want a strong rental yield floor over speculative capital appreciation",
   verdictBadge: "Buy",
 };
 

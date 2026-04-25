@@ -105,6 +105,7 @@ The honest reality: Kondapur is a mature, dense neighbourhood. You are not buyin
 What Kondapur delivers reliably is liveability. The social infrastructure — malls, schools, hospitals, restaurants — is fully built out. Raidurgam Metro removes car dependence for IT commuters. Rental demand is robust and vacancy stays low, which matters if you are buying for yield or keeping the option to rent out later.
 
 Best suited for: IT professionals buying their first home with a tight budget, investors prioritising rental yield over speculative appreciation, and buyers who want an established neighbourhood over a greenfield bet. If you can stretch to Gachibowli or need a newer building, look south. If you want value, connectivity, and a neighbourhood that already works, Kondapur holds up.`,
+  idealFor: "First-time IT buyers on a tight budget, rental yield investors, and anyone who wants a fully built-out neighbourhood with metro access without paying Gachibowli prices",
   verdictBadge: "Buy",
 };
 

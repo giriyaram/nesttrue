@@ -94,6 +94,7 @@ const kollur: AreaData = {
 The honest trade-off is time and readiness. Kollur's infrastructure is visibly behind its apartment supply. Roads within residential clusters are functional, but schools, hospitals, and daily retail are still thin. A resident buying in Kollur today is buying into a partially built neighbourhood — the daily quality of life will improve steadily over the next 3–5 years, but it won't match Kokapet's maturity from day one.
 
 For the buyer who works from home 3+ days a week, is price-sensitive, has a 5–7 year horizon, or needs a large apartment (2,000 sq ft+) at a sane price — Kollur is genuinely compelling. For someone who needs a fully functional neighbourhood on possession day and commutes to Gachibowli daily, the honest advice is to pay more and buy in Kokapet or Narsingi.`,
+  idealFor: "Hybrid-work buyers (3+ days from home) needing large apartments at value pricing, families with a 5–7 year horizon, and investors seeking appreciation headroom below ₹9,500 / sq ft",
   verdictBadge: "Caution",
 };
 

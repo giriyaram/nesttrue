@@ -52,5 +52,6 @@ export type AreaData = {
   projects: Project[];
   nearbyAreas: NearbyArea[];
   longDescription: string;  // markdown-safe plain text, 2–3 paragraphs
+  idealFor: string;         // 1-liner buyer persona — used on area page and in comparisons
   verdictBadge: "Buy" | "Caution" | "Avoid";
 };

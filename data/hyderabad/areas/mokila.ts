@@ -62,6 +62,7 @@ const mokila: AreaData = {
 The buyers for whom Mokila works: remote-first workers, retirees, or investors with very long horizons who believe Hyderabad's IT expansion will eventually reach this corridor. It is also a market for buyers who prioritise a large, independent house or villa plot and accept the distance as the price.
 
 For anyone who needs to commute 4–5 days a week to Gachibowli, HITEC City, or Financial District, Mokila is a false economy. The daily time cost is significant, and the thinner resale market means your exit strategy is harder to execute.`,
+  idealFor: "Remote-first workers, retirees, or long-term plot investors who prioritise green living and low entry cost and can accept a 50-minute commute to IT hubs",
   verdictBadge: "Caution",
 };
 

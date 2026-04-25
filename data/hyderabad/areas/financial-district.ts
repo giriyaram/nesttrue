@@ -131,6 +131,7 @@ const financialDistrict: AreaData = {
 The honest case for buying here is narrow but compelling: if you are a senior IT or finance professional earning above ₹50 lakh annually, working 5 days a week within 2 km, and plan to stay 7+ years, the daily quality of life improvement over Kokapet or Gachibowli is real and measurable. You save 45–90 minutes every day. You have the best infrastructure in the city at your doorstep. And your rental yield floor is the strongest in Hyderabad if you ever exit.
 
 The honest case against: you are paying ₹11,000–16,500 / sq ft for a market that has already appreciated significantly. The appreciation story is largely priced in. If you are buying for investment returns rather than end-use, Kokapet and Kollur will deliver better capital growth over the next 5 years at a fraction of the entry cost. Financial District is a lifestyle buy, not an alpha-generating investment at current prices.`,
+  idealFor: "Senior IT or finance professionals (₹2 Cr+ budget) working 5 days a week at Nanakramguda campuses who value zero commute above all else — a lifestyle buy, not a returns play",
   verdictBadge: "Buy",
 };
 

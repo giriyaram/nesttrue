@@ -63,6 +63,7 @@ const tellapur: AreaData = {
 The honest case against: Tellapur is buying into a promise. The infrastructure is thin, the commute is long, and daily conveniences require driving to Kondapur or Miyapur. If you need to live there today with school-age children, the quality of daily life will disappoint.
 
 Tellapur makes sense as a 7–10 year investment horizon play — particularly for plot buyers who can wait for HMDA's township master plan to materialise. It is not a choice for families who need the area fully functional on possession day.`,
+  idealFor: "Long-horizon investors (7–10 years) and plot buyers who believe western Hyderabad will expand to this corridor and can accept thin infrastructure today in exchange for a lower base price",
   verdictBadge: "Caution",
 };
 
