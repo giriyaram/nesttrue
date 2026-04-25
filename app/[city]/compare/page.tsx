@@ -121,7 +121,7 @@ export default async function CompareIndexPage({
               {right.verdictBadge}
             </span>
           </div>
-          <span className="text-xs text-trust-blue font-medium group-hover:underline">
+          <span className="text-sm text-trust-blue font-semibold underline">
             Compare →
           </span>
         </div>
@@ -156,7 +156,7 @@ export default async function CompareIndexPage({
       <div className="max-w-6xl mx-auto px-4 py-12 space-y-10">
         {topPairs.length > 0 && (
           <section>
-            <h2 className="text-lg font-semibold text-navy mb-4">Top area comparisons</h2>
+            <h2 className="text-xl font-display font-bold text-navy mb-4">Top area comparisons</h2>
             <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
               {topPairs.map((p) => (
                 <PairCard key={p.slug} {...p} />
@@ -167,7 +167,7 @@ export default async function CompareIndexPage({
 
         {mixedPairs.length > 0 && (
           <section>
-            <h2 className="text-lg font-semibold text-navy mb-4">Mixed comparisons</h2>
+            <h2 className="text-xl font-display font-bold text-navy mb-4">Mixed comparisons</h2>
             <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
               {mixedPairs.map((p) => (
                 <PairCard key={p.slug} {...p} />
@@ -178,7 +178,7 @@ export default async function CompareIndexPage({
 
         {restPairs.length > 0 && (
           <section>
-            <h2 className="text-lg font-semibold text-navy mb-4">All other comparisons</h2>
+            <h2 className="text-xl font-display font-bold text-navy mb-4">All other comparisons</h2>
             <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
               {restPairs.map((p) => (
                 <PairCard key={p.slug} {...p} />
