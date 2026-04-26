@@ -52,18 +52,6 @@ const gachibowli: AreaData = {
     },
   ],
   projects: [
-    {
-      name: "Lodha Bellezza",
-      developer: "Lodha Group",
-      priceRange: "₹12,000–14,000 / sq ft",
-      status: "Ready to Move",
-    },
-    {
-      name: "Phoenix Kessaku",
-      developer: "Phoenix Group",
-      priceRange: "₹11,000–13,500 / sq ft",
-      status: "Ready to Move",
-    },
   ],
   nearbyAreas: [
     { name: "Financial District", slug: "financial-district", relation: "3 km south" },

@@ -65,7 +65,7 @@ const financialDistrict: AreaData = {
     {
       title: "Prestige and luxury developer concentration",
       detail:
-        "Phoenix, Lodha, and Prestige have all launched flagship luxury projects here. The quality floor is high — substandard developers cannot compete in this segment, which protects asset quality over time.",
+        "Prestige, My Home, and DSR have all launched flagship luxury projects here. The quality floor is high — substandard developers cannot compete in this segment, which protects asset quality over time.",
     },
     {
       title: "Airport connectivity via ORR in under 20 minutes",
@@ -101,18 +101,6 @@ const financialDistrict: AreaData = {
       priceRange: "₹12,000–15,000 / sq ft",
       status: "Under Construction",
       slug: "sas-diamond-towers",
-    },
-    {
-      name: "Phoenix Kessaku",
-      developer: "Phoenix Group",
-      priceRange: "₹13,000–16,000 / sq ft",
-      status: "Ready to Move",
-    },
-    {
-      name: "Lodha Bellezza",
-      developer: "Lodha Group",
-      priceRange: "₹12,500–15,500 / sq ft",
-      status: "Ready to Move",
     },
     {
       name: "My Home Avatar",
